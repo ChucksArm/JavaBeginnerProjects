@@ -1,0 +1,25 @@
+package FactorialRecursion;
+
+public class FactorialRecur {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//5! = 5 * 4 * 3 * 2 * 1  = 120
+		System.out.println(factorial(5));
+	public static void int factorial(int n) {
+		if (n ==1) {
+			System.out.println("factorial(" + n + ") =1");
+			return 1;
+		} else {
+			
+		System.out.println("factorial(" + n + ") = " + n + " * factorial(" + (n - 1) + ")");
+		return n * (n -1);
+		}
+	}
+	}
+}
+
+	
+
+
